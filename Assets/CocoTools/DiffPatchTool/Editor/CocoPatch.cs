@@ -21,10 +21,10 @@ namespace CocoTools
     //private bool isForceOverwrite = true;
     private bool isForceOverwriteOriginal = false;
 
-    [MenuItem("coco/Patch tool")]
+    [MenuItem("coco/Patch Tool")]
     private static void Init()
     {
-      if (!(GetWindow(typeof(CocoPatch), false, "Patch tool") is CocoPatch window)) return;
+      if (!(GetWindow(typeof(CocoPatch), false, "Patch Tool") is CocoPatch window)) return;
       window.Show();
       window.InitLogWindow();
     }

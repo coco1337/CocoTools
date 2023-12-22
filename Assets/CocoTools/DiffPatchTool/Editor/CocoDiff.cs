@@ -22,10 +22,10 @@ namespace CocoTools
 
     private string command = "-m-6 -SD -c-zstd-21-24 -d";
 
-    [MenuItem("coco/Diff tool")]
+    [MenuItem("coco/Diff Tool")]
     private static void Init()
     {
-      if (!(GetWindow(typeof(CocoDiff), false, "Diff tool") is CocoDiff window)) return;
+      if (!(GetWindow(typeof(CocoDiff), false, "Diff Tool") is CocoDiff window)) return;
       window.Show();
       window.InitLogWindow();
     }
