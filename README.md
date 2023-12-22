@@ -13,7 +13,7 @@ For Content Creators
 # Creating Patch Files (Content Creators)
 To create a patch file please navigate to the **"coco"** tab at the top left of your Unity screen and then open the Diff tool from the dropdown menu.
 
-![image](https://github.com/coco1337/CocoTools/assets/91550600/83696ccc-1305-4c16-b549-dc8a6514da91)
+![image](https://github.com/coco1337/CocoTools/assets/91550600/4f744032-c4c5-4a23-be6c-33f0f07ca0f3)
 
 A window should appear named **"Diff Tool".** From the new window input the original FBX and the edited FBX in the fields named, Original file and Diff Target File. 
 
