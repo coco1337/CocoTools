@@ -41,3 +41,9 @@ Once you add your original file and Diff file press **"Start Patch".** It's reco
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/68bbc7f0-3e0e-41af-b559-946f0dd4ed28)
 
 # Japanese Translation
+
+# Credits
+
+Original tool created by Sisong. The creation of this tool would not have been possible without his HDiffPatch tool. You can find the original tool at the link below. 
+
+https://github.com/sisong/HDiffPatch
