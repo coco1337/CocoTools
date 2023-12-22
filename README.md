@@ -29,7 +29,7 @@ This file is used by end users to patch their FBX with the Patch tool included w
 
 For end users the entire process is simple. Navigate to the coco tab at the top left of your Unity screen and then open the Patch Tool. 
 
-![image](https://github.com/coco1337/CocoTools/assets/91550600/d0b64310-4f8e-4ad9-b173-7dfb0fd278c1)
+![image](https://github.com/coco1337/CocoTools/assets/91550600/0ad90325-c35c-48fc-922c-c671af2d9d73)
 
 A window should appear named **"Patch Tool".** From the new window input the original FBX and the HDiff file in the fields named,  Original File (FBX) and HDiff file (HDIFF).
 
