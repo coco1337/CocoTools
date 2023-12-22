@@ -4,6 +4,7 @@
 **CocoTools** has the entire functionality of HDiffPatch tool DLL by Sisong however only the basic features for patching are currently available. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
 
 For Japanese instructions please scroll to the end. 
+
 日本語の説明は最後までスクロールしてください。
 
 # Instructions 
