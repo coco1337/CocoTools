@@ -3,6 +3,9 @@
 
 **CocoTools** has the entire functionality of HDiffPatch tool DLL by Sisong however only the basic features for patching are currently available. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
 
+For Japanese instructions please scroll to the end. 
+日本語の説明は最後までスクロールしてください。
+
 # Instructions 
 For Content Creators
 **CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use for general users is a necessary feature for normal users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. 
@@ -34,3 +37,5 @@ A window should appear named **"Patch Tool".** From the new window input the ori
 
 Once you add your original file and Diff file press **"Start Patch".** It's recommended to have overwrite enabled but please check recommended installation instructions listed by the content creator. 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/68bbc7f0-3e0e-41af-b559-946f0dd4ed28)
+
+# Japanese Translation
