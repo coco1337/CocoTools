@@ -1,7 +1,7 @@
 # Introduction to CocoTools
 **CocoTools** is a C# conversion of Sisong's (https://github.com/sisong/HDiffPatch) HDiffPatch tool for intended use in Unity and VRChat related content. The tool aims to allow users to safely edit FBX's for additional content, repairs, and to being life back to abandon avatars without redistributing original FBX data. The entire process is destructive so please be aware of this as an end user when using this tool. 
 
-**CocoTools** has the entire functionality of HDiffPatch tool DLL by Sisong however only the basic features for patching are currently available. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
+**CocoTools** has the entire functionality of HDiffPatch tools through the conversion of its DLL file made by Sisong however only the basic features for patching are currently available for general use. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
 
 For Japanese instructions please scroll to the end. 
 
