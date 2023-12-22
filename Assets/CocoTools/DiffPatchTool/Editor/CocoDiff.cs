@@ -97,11 +97,13 @@ namespace CocoTools
           this.cocoLogWindow.AddLog(LogType.ERROR, "Cannot overwrite output file");
           return;
         }
-        
+      }
+      else
+      {
         tempFilePath = Path.Combine(Directory.GetCurrentDirectory(), Path.GetDirectoryName(targetFilePath),
           $"temp_{(long)(DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0)).TotalMilliseconds}");
-      }
-
+      }   
+      
       this.cocoLogWindow.Clear();
 
       HDiffPatchExporter.RegisterDelegateHdiffz((str) => this.cocoLogWindow.AddLog(LogType.LOG, str));

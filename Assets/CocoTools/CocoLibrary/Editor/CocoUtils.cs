@@ -11,14 +11,26 @@ namespace CocoTools
   {
     public static void ForceOverwrite(string assetPath, string originalAssetPath)
     {
-      FileUtil.ReplaceFile(assetPath, originalAssetPath);
+      if (File.Exists(assetPath))
+      {
+        FileUtil.ReplaceFile(assetPath, originalAssetPath);
 
-      if (assetPath.StartsWith(Directory.GetCurrentDirectory()))
-        assetPath = assetPath.Substring(Directory.GetCurrentDirectory().Length + 1);
-      if (originalAssetPath.StartsWith(Directory.GetCurrentDirectory()))
-        originalAssetPath = originalAssetPath.Substring(Directory.GetCurrentDirectory().Length + 1);
-      AssetDatabase.DeleteAsset(assetPath);
-      AssetDatabase.ImportAsset(originalAssetPath);
+        if (assetPath.StartsWith(Directory.GetCurrentDirectory()))
+          assetPath = assetPath.Substring(Directory.GetCurrentDirectory().Length + 1);
+        if (originalAssetPath.StartsWith(Directory.GetCurrentDirectory()))
+          originalAssetPath = originalAssetPath.Substring(Directory.GetCurrentDirectory().Length + 1);
+        AssetDatabase.DeleteAsset(assetPath);
+        AssetDatabase.ImportAsset(originalAssetPath);
+      }
+      else
+      {
+        FileUtil.MoveFileOrDirectory(assetPath, originalAssetPath);
+        
+        if (assetPath.StartsWith(Directory.GetCurrentDirectory()))
+          assetPath = assetPath.Substring(Directory.GetCurrentDirectory().Length + 1);
+
+        AssetDatabase.ImportAsset(assetPath);
+      }
     }
   }
 
