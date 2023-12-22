@@ -9,7 +9,7 @@ For Japanese instructions please scroll to the end.
 
 # Instructions 
 For Content Creators
-**CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use for general users is a necessary feature for normal users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. 
+**CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use is a necessary feature for general users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. Advance users still have some freedom to use their own commands for patching purposes. Please check Sisong's HDiffPatch github page for additional information regarding commands. 
 
 # Creating Patch Files (Content Creators)
 To create a patch file please navigate to the **"coco"** tab at the top left of your Unity screen and then open the Diff tool from the dropdown menu.
