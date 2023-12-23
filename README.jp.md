@@ -5,13 +5,17 @@
 [![JP](https://img.shields.io/badge/Lang-JP-green.svg)](https://github.com/coco1337/CocoTools/blob/main/README.jp.md)
 
 # Introduction to CocoTools
-**CocoTools** is a C# conversion of Sisong's (https://github.com/sisong/HDiffPatch) HDiffPatch tool for use in Unity and VRChat related content. The tool aims to allow users to safely edit FBX's for additional content, repairs, and added functionality to avatars without redistributing original FBX data. The entire process is destructive so please be aware of this as an end user when using this tool. 
+**CocoTools** is a C# conversion of Sisong's (https://github.com/sisong/HDiffPatch?tab=License-1-ov-file#readme) HDiffPatch tool for intended use in Unity and VRChat related content. The tool aims to allow users to safely edit FBX's for additional content, repairs, and to being life back to abandon avatars without redistributing original FBX data. The entire process is destructive so please be aware of this as an end user when using this tool. 
 
-**CocoTools** maintains the functionality of the original HDiffPatch tool from Sisong through the conversion of its DLL file. However, at this point in time, only basic features are currently available for general use. The tool is still currently in a BETA state and fuctionality is always subject to change. Depending on user necessity, more original features will be opened up for end users and content creators. 
+**CocoTools** has the entire functionality of HDiffPatch tool DLL by Sisong however only the basic features for patching are currently available. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
+
+For Japanese instructions please scroll to the end. 
+
+日本語の説明は最後までスクロールしてください。
 
 # Instructions 
 For Content Creators
-**CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use is a necessary feature for general users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. Advance users still have some freedom to use their own commands for patching purposes. Please check Sisong's HDiffPatch github page for additional information regarding commands. 
+**CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use for general users is a necessary feature for normal users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. 
 
 # Creating Patch Files (Content Creators)
 To create a patch file please navigate to the **"coco"** tab at the top left of your Unity screen and then open the Diff tool from the dropdown menu.
@@ -41,6 +45,8 @@ A window should appear named **"Patch Tool".** From the new window input the ori
 Once you add your original file and Diff file press **"Start Patch".** It's recommended to have overwrite enabled but please check recommended installation instructions listed by the content creator. 
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/68bbc7f0-3e0e-41af-b559-946f0dd4ed28)
+
+# Japanese Translation
 
 # Credits
 
