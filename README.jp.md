@@ -6,50 +6,44 @@
 [![Release](https://img.shields.io/badge/Release-Beta-red.svg?logo=unity&logoColor=#000000)](https://github.com/coco1337/CocoTools/releases/tag/Beta)
 
 # Introduction to CocoTools
-**CocoTools** is a C# conversion of Sisong's (https://github.com/sisong/HDiffPatch?tab=License-1-ov-file#readme) HDiffPatch tool for intended use in Unity and VRChat related content. The tool aims to allow users to safely edit FBX's for additional content, repairs, and to being life back to abandon avatars without redistributing original FBX data. The entire process is destructive so please be aware of this as an end user when using this tool. 
+**CocoTools** はUnityとVRChat関連コンテンツのためにSisong's (https://github.com/sisong/HDiffPatch) HDiffPatch toolをC#に変換したツールです。このツールは使用者が元のFBXデータを再配布しなくてもコンテンツの追加、修理、復旧等、FBXの編集が出来るようにサポートします。一連の過程で元のデータが損傷する可能性がある為、注意が必要です。
 
-**CocoTools** has the entire functionality of HDiffPatch tool DLL by Sisong however only the basic features for patching are currently available. The tool is in a BETA state and additional functionality will open up depending on user necessity. 
+**CocoTools** プロジェクトプラグイン内のhpatchz.dllとhdiffz.dllは、SisongのHdiffPatch機能のほとんとを持ち合わせていますが、現在はPatchのための基本機能のみ使用出来ます。βバージョンな為、いつでも更新される可能性があります。
 
-For Japanese instructions please scroll to the end. 
-
-日本語の説明は最後までスクロールしてください。
-
-# Instructions 
+## Instructions 
 For Content Creators
-**CocoTools** is made to be extremely easy to use by bringing a GUI (Graphical User Interface) to the user. Ease of use for general users is a necessary feature for normal users to properly use the tool. For end users they only need to drag in their original FBX and the HDiff file to commence the patching routine. 
+**CocoTools** は、使用者にGUI(Graphical User Interface)を提供することによって手軽に使えるよう制作されています。使用者は元のFBXとHDiffファイルをドラッグアンドドロップすることでPatchを行えることが出来ます。
 
-# Creating Patch Files (Content Creators)
-To create a patch file please navigate to the **"coco"** tab at the top left of your Unity screen and then open the Diff tool from the dropdown menu.
+## Creating Patch Files (Content Creators)
+HDiff ファイルを生成するにはUnity画面上部の **"coco"** からDiffツールを開いてください。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/4f744032-c4c5-4a23-be6c-33f0f07ca0f3)
 
-A window should appear named **"Diff Tool".** From the new window input the original FBX and the edited FBX in the fields named, Original file and Diff Target File. 
+**"Diff Tool".** という名前の画面が現れます。そこから元のFBXファイルと修正したFBXファイル、HDiffファイルの名前をそれぞれ各場所に登録します。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/3ff61c61-d65a-4fb2-98ba-f1a37946d496)
 
-Once you add your original file and Diff target file press **"Start Diff!"** to create the HDiff file. This file will be used by other users to patch their FBX. 
+Original fileとDiff target fileを追加し、出力したいHDiffの名前を入力し **"Start Diff!"** ボタンを押せば、HDiffファイルが生成されます。当ファイルは他のユーザーがFBXのPatchを行うために使用されます。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/aec3ccea-c454-4248-aa6b-0048c6ee278d)
 
-This file is used by end users to patch their FBX with the Patch tool included with CocoTools. Please be aware that HDiff files require the Original FBX to work. The HDiff file itself cannot be used in its own environment and requires the use of the original file to complete its patching process. The file only contains non-original data. For more information please check Sisong's HDiffPatch tool. 
+このファイルは最終使用者が当ツールに含まれたPatchツールでFBXの更新を行うために使われます。HDiffファイルはPatch作業のためにHDiffファイル生成に使われた元のFBXファイルを必要とする為、元のFBXファイルを持っていないと使用出来ません。このHDiffファイルには修正前と修正後のFBXファイルの違いが保存されています。詳しい内容はSisongのHDiffPatchの方を参考お願いします。
 
-# Patching Files (End User) 
+## Patching Files (End User) 
 
-For end users the entire process is simple. Navigate to the coco tab at the top left of your Unity screen and then open the Patch Tool. 
+Unity上部 **"coco"** メニューからPatchツールを開いてください。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/0ad90325-c35c-48fc-922c-c671af2d9d73)
 
-A window should appear named **"Patch Tool".** From the new window input the original FBX and the HDiff file in the fields named,  Original File (FBX) and HDiff file (HDIFF).
+**"Patch Tool".** という名前の画面が開かれます。そこから元のFBXファイルとHDiffファイルを、それぞれ該当する場所に登録してください。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/bdd83f01-1413-4d55-9a4f-4be52ed30c83)
 
-Once you add your original file and Diff file press **"Start Patch".** It's recommended to have overwrite enabled but please check recommended installation instructions listed by the content creator. 
+元のFBXファイルとHDiffファイルを登録した後、 **"Start Patch".** ボタンを押してください。他のHDiffオプションが必要な場合、Custom HDIFF Commandsを使ってお好みのオプションが入れられますが、デフォルト状態のまま使用することをお勧めします。
 
 ![image](https://github.com/coco1337/CocoTools/assets/91550600/68bbc7f0-3e0e-41af-b559-946f0dd4ed28)
 
-# Japanese Translation
-
-# Credits
+## Credits
 
 Original tool created by Sisong. The creation of this tool would not have been possible without his HDiffPatch tool. You can find the original tool at the link below. 
 
