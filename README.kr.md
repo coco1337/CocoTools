@@ -6,7 +6,7 @@
 [![Release](https://img.shields.io/badge/Release-Beta-red.svg?logo=unity&logoColor=#000000)](https://github.com/coco1337/CocoTools/releases/tag/Beta)
 
 # Introduction to CocoTools
-**CocoTools** 은 Unity와 VRChat 관련 콘텐츠를 위해 Sisong's (https://github.com/sisong/HDiffPatch?tab=License-1-ov-file#readme) HDiffPatch tool을 C#으로 변환한 툴입니다. 이 툴은 사용자가 원본 FBX 데이터를 재배포 하지 않고 콘텐츠를 추가하거나, 수리, 복구하는 등 FBX를 편집할 수 있도록 지원합니다. 일련의 과정으로 원본 데이터가 손상 될 수 있기 때문에 주의가 필요합니다.
+**CocoTools** 은 Unity와 VRChat 관련 콘텐츠를 위해 Sisong's (https://github.com/sisong/HDiffPatch) HDiffPatch tool을 C#으로 변환한 툴입니다. 이 툴은 사용자가 원본 FBX 데이터를 재배포 하지 않고 콘텐츠를 추가하거나, 수리, 복구하는 등 FBX를 편집할 수 있도록 지원합니다. 일련의 과정으로 원본 데이터가 손상 될 수 있기 때문에 주의가 필요합니다.
 
 **CocoTools** 프로젝트 플러그인 내의 hpatchz.dll과 hdiffz.dll은 Sisong의 HdiffPatch 기능을 대부분 가지고 있지만 현재는 Patch를 위한 기본 기능만 사용할 수 있습니다. 현재 이 툴은 BETA 버전이기 때문에 언제나 변경 될 수 있습니다.
 
